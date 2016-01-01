@@ -1,5 +1,5 @@
 var app = angular.module('userProfiles'); 
-///////////////////
+     ///////////////////
 app.service('mainService', function ($http) {
     this.getUsers = function (page) {
         return $http({
@@ -14,3 +14,9 @@ app.service('mainService', function ($http) {
 });
 
 
+
+
+
+
+    
+    
